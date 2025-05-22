@@ -48,13 +48,13 @@ export default function Portfolio() {
         <ul>
           <li>
             <strong>Bookly App:</strong>
-            <p>A free book reading app with PDF preview and search functionality.</p>
-            <p>Built using Flutter and integrated with Google Books API for real-time data access.</p>
+            <p>Developed a Flutter application for reading and downloading free books in PDF format, with categorized search and offline access.</p>
+            <p>Fetched book data from a RESTful API and implemented topic-based search, PDF download, and smooth navigation using Cubit and Clean Architecture.</p>
           </li>
           <li>
             <strong>Note App:</strong>
-            <p>An offline note-taking app using Hive and Cubit for local data management.</p>
-            <p>Allows users to add, delete, and edit notes without internet access.</p>
+            <p>Created a note-taking app that mimics native mobile notes apps, allowing users to add, edit, and delete notes offline.</p>
+            <p>Used Hive for local storage, implemented full CRUD operations, and managed state with Cubit following Clean Architecture principles.</p>
           </li>
           <li>
             <strong>EHC-eVenue Hub:</strong>
@@ -64,8 +64,8 @@ export default function Portfolio() {
           </li>
           <li>
             <strong>Chat App:</strong>
-            <p>A real-time chat application with Firebase authentication and Firestore database.</p>
-            <p>Supports sending text messages and displaying active user status.</p>
+            <p>Built a real-time chat application using Firebase Authentication and Firestore, enabling secure login and instant messaging.</p>
+            <p>Used Cubit for state management, ensured clean separation of concerns, and created a responsive UI with proper form validation and error handling.</p>
           </li>
         </ul>
       </section>
