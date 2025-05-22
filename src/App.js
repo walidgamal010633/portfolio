@@ -1,64 +1,92 @@
-
-import './App.css';
+import React from "react";
 
 export default function Portfolio() {
   return (
-    <div className="container">
-      <header className="header">
-        <div>
-          <h1>Walid Gamal Elmnshawy</h1>
-          <p>Junior Flutter Developer</p>
-        </div>
-      </header>
+    <div className="min-h-screen bg-gray-100 text-gray-800 p-6">
+      <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 space-y-8">
+        <header className="text-center">
+          <h1 className="text-4xl font-bold">Walid Gamal Elmnshawy</h1>
+          <p className="text-lg text-gray-600">Junior Flutter Developer</p>
 
-      <section>
-        <h2>About Me</h2>
-        <p>
-          Junior Flutter Developer with over 6 months of experience building cross-platform mobile apps using Flutter and Dart. Skilled in REST APIs, Firebase, GraphQL, and Clean Architecture.
-        </p>
-      </section>
+          <div className="mt-4 space-x-4">
+            <a
+              href="https://wa.me/201063323039"
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="mailto:walidgamal010633@gmail.com"
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
+            <a
+              href="https://github.com/walidgamal010633"
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/walid-elmnshawy-8036762a6"
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </header>
 
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>Dart, Flutter</li>
-          <li>REST APIs, Firebase, GraphQL</li>
-          <li>Hive, Firestore, SharedPreferences</li>
-          <li>Cubit, Riverpod</li>
-          <li>Clean Architecture, MVVM, SOLID</li>
-          <li>GitHub, GitLab</li>
-        </ul>
-      </section>
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">About Me</h2>
+          <p>
+            Junior Flutter Developer with over 6 months of experience building
+            cross-platform mobile applications using Flutter and Dart. Skilled
+            in REST APIs, Firebase, GraphQL, with a solid understanding of Clean
+            Architecture.
+          </p>
+        </section>
 
-      <section>
-        <h2>Projects</h2>
-        <div>
-          <h3>Bookly App</h3>
-          <p>Free book reading app with search and PDF download.</p>
-        </div>
-        <div>
-          <h3>Note App</h3>
-          <p>Offline note-taking app with Hive and Cubit.</p>
-        </div>
-        <div>
-          <h3>EHC-eVenue Hub</h3>
-          <p>Remote collaboration on hall booking app using GraphQL and Riverpod.</p>
-        </div>
-        <div>
-          <h3>Chat App</h3>
-          <p>Real-time chat application with Firebase and Cubit.</p>
-        </div>
-      </section>
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">Skills</h2>
+          <ul className="list-disc list-inside">
+            <li>Dart, Flutter</li>
+            <li>REST API, Firebase, GraphQL</li>
+            <li>Hive, Bloc, SharedPreferences</li>
+            <li>Cubit, Riverpod</li>
+            <li>Clean Architecture, MVVM, SOLID</li>
+            <li>GitHub, GitLab</li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>Education</h2>
-        <p>Bachelor of Computer Science, Mansoura University, 2023 – Very Good</p>
-        <p>Information Technology High School</p>
-      </section>
-
-      <footer>
-        <p>Contact: walidgamal010633@gmail.com | GitHub: walidgamal010633 | LinkedIn: walid-elmnshawy</p>
-      </footer>
+        <section>
+          <h2 className="text-2xl font-semibold mb-2">Projects</h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <strong>Bookly App:</strong> Free book reading app with search and
+              PDF download.
+            </li>
+            <li>
+              <strong>Note App:</strong> Offline note-taking app with Hive and
+              Cubit.
+            </li>
+            <li>
+              <strong>EHC-eVenue Hub:</strong> Remote collaboration on hall
+              booking app using GraphQL and Riverpod.
+            </li>
+            <li>
+              <strong>Chat App:</strong> Real-time messaging app using Firebase.
+            </li>
+          </ul>
+        </section>
+      </div>
     </div>
   );
 }
