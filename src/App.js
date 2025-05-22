@@ -58,8 +58,9 @@ export default function Portfolio() {
           </li>
           <li>
             <strong>EHC-eVenue Hub:</strong>
-            <p>Remote collaboration on hall booking with GraphQL and Riverpod.</p>
-            <p>Admin panel and booking management system for event coordinators.</p>
+            <p>Worked remotely with NKSA company on an event hall booking application using Riverpod for state management and GraphQL.</p>
+            <p>Developed and implemented key UI screens including Profile, Favorites, Side Menu, Special Request, Notifications, Edit Profile, Contact Us, and Terms of Use, ensuring smooth user experience and consistent design</p>
+            <p>The app allows users to browse available halls with detailed info such as location, capacity, and equipment, streamlining reservation management . </p>
           </li>
           <li>
             <strong>Chat App:</strong>
