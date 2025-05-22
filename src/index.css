@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+header h1 {
+  margin: 0;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  margin-bottom: 0.5rem;
+}
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
